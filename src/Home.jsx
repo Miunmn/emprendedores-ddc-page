@@ -1,4 +1,4 @@
-function Home() {
+function Home({whatsappDDSLink}) {
   return (
     <div className="home-main">
           <div class="main-banner" id="top">
@@ -8,10 +8,10 @@ function Home() {
                           <div class="left-content">
                               <div class="thumb">
                                   <div class="inner-content">
-                                      <h4>We Are Therichpost</h4>
-                                      <span>Awesome, clean &amp; creative HTML5 Template</span>
+                                      <h4>Dulce Detalle de Susan</h4>
+                                      <span>Personalizdos!</span>
                                       <div class="main-border-button">
-                                          <a href="#">Purchase Now!</a>
+                                          <a href={whatsappDDSLink}>Comprar ahora</a>
                                       </div>
                                   </div>
                                   <img src="assets/images/image1.jpg" alt="" />
@@ -25,16 +25,14 @@ function Home() {
                                       <div class="right-first-image">
                                           <div class="thumb">
                                               <div class="inner-content">
-                                                  <h4>Women</h4>
-                                                  <span>Best Clothes For Women</span>
+                                                  <h4>Personalizados</h4>
+                                                  <span>Torta personalizada</span>
                                               </div>
                                               <div class="hover-content">
-                                                  <div class="inner">
-                                                      <h4>Women</h4>
-                                                      <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
-                                                      <div class="main-border-button">
-                                                          <a href="#">Discover More</a>
-                                                      </div>
+                                                  <div class="inner">                                                      
+                                                    <div class="main-border-button">
+                                                        <a href={whatsappDDSLink}>Consulta aqui</a>
+                                                    </div>
                                                   </div>
                                               </div>
                                               <img src="assets/images/image2.jpg" />
@@ -45,16 +43,14 @@ function Home() {
                                       <div class="right-first-image">
                                           <div class="thumb">
                                               <div class="inner-content">
-                                                  <h4>Men</h4>
-                                                  <span>Best Clothes For Men</span>
+                                                  <h4>Personalizados</h4>
+                                                  <span>Tortas Personalizadas</span>
                                               </div>
                                               <div class="hover-content">
-                                                  <div class="inner">
-                                                      <h4>Men</h4>
-                                                      <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
-                                                      <div class="main-border-button">
-                                                          <a href="#">Discover More</a>
-                                                      </div>
+                                                  <div class="inner">                                                      
+                                                    <div class="main-border-button">
+                                                        <a href={whatsappDDSLink}>Consulta aqui</a>
+                                                    </div>
                                                   </div>
                                               </div>
                                               <img src="assets/images/image3.jpg" />
@@ -65,16 +61,14 @@ function Home() {
                                       <div class="right-first-image">
                                           <div class="thumb">
                                               <div class="inner-content">
-                                                  <h4>Kids</h4>
-                                                  <span>Best Clothes For Kids</span>
+                                                  <h4>Personalizados</h4>
+                                                  <span>Tortas Personalizadas</span>
                                               </div>
                                               <div class="hover-content">
-                                                  <div class="inner">
-                                                      <h4>Kids</h4>
-                                                      <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
-                                                      <div class="main-border-button">
-                                                          <a href="#">Discover More</a>
-                                                      </div>
+                                                  <div class="inner">                                                      
+                                                    <div class="main-border-button">
+                                                        <a href={whatsappDDSLink}>Consulta aqui</a>
+                                                    </div>
                                                   </div>
                                               </div>
                                               <img src="assets/images/image4.jpg" />
@@ -85,16 +79,14 @@ function Home() {
                                       <div class="right-first-image">
                                           <div class="thumb">
                                               <div class="inner-content">
-                                                  <h4>Accessories</h4>
-                                                  <span>Best Trend Accessories</span>
+                                              <h4>Personalizados</h4>
+                                                  <span>Tortas Personalizadas</span>
                                               </div>
                                               <div class="hover-content">
-                                                  <div class="inner">
-                                                      <h4>Accessories</h4>
-                                                      <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
-                                                      <div class="main-border-button">
-                                                          <a href="#">Discover More</a>
-                                                      </div>
+                                                  <div class="inner">                                                      
+                                                    <div class="main-border-button">
+                                                        <a href={whatsappDDSLink}>Consulta aqui</a>
+                                                    </div>
                                                   </div>
                                               </div>
                                               <img src="assets/images/image5.jpg" />
@@ -107,7 +99,7 @@ function Home() {
                   </div>
               </div>
           </div>
-         
+{/*          
           <section class="section" id="men">
               <div class="container">
                   <div class="row">
@@ -583,17 +575,17 @@ function Home() {
                       </div>
                   </div>
               </div>
-          </section>
+          </section> */}
       
           <div class="subscribe">
               <div class="container">
                   <div class="row">
                       <div class="col-lg-8">
                           <div class="section-heading">
-                              <h2>By Subscribing To Our Newsletter You Can Get 30% Off</h2>
-                              <span>Details to details is what makes Therichpost different from the other themes.</span>
+                              <h2>Contactanos a nuestro Whatsapp para hacer tu pedido delivery</h2>
+                              <span></span>
                           </div>
-                          <form id="subscribe" action="" method="get">
+                          {/* <form id="subscribe" action="" method="get">
                               <div class="row">
                               <div class="col-lg-5">
                                   <fieldset>
@@ -607,26 +599,31 @@ function Home() {
                               </div>
                               <div class="col-lg-2">
                                   <fieldset>
-                                  <button type="submit" id="form-submit" class="main-dark-button"><i class="fa fa-paper-plane"></i></button>
+                                  <button id="form-submit" class="main-dark-button">
+
+                                  <a href={whatsappDDSLink}></a>
+
+                                    <i class="fa fa-paper-plane"></i>
+                                </button>
                                   </fieldset>
                               </div>
                               </div>
-                          </form>
+                          </form> */}
                       </div>
                       <div class="col-lg-4">
                           <div class="row">
                               <div class="col-6">
                                   <ul>
-                                      <li>Store Location:<br /><span>Ludhiana Punjab</span></li>
-                                      <li>Phone:<br /><span>12345678910</span></li>
-                                      <li>Office Location:<br /><span>North Miami Beach</span></li>
+                                      <li>Ubicación:<br /><span>VMT</span></li>
                                   </ul>
                               </div>
                               <div class="col-6">
                                   <ul>
-                                      <li>Work Hours:<br /><span>07:30 AM - 9:30 PM Daily</span></li>
-                                      <li>Email:<br /><span>info@company.com</span></li>
-                                      <li>Social Media:<br /><span><a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Behance</a>, <a href="#">Linkedin</a></span></li>
+                                      <li>Horas de trabajo:<br /><span>07:30 AM - 9:30 PM Diariamente</span></li>
+                                      <li>Social Media:<br />                                      <span>
+                                        <a href="https://www.instagram.com/dulcedetalledesusan/">Instagram</a>, 
+                                        <a href={whatsappDDSLink}>Whatsapp</a>
+                                        </span></li>
                                   </ul>
                               </div>
                           </div>

@@ -7,14 +7,14 @@ function Header() {
                <div class="row">
                    <div class="col-12">
                        <nav class="main-nav">
-                        <Link class="logo" to={{ pathname: "/"}}>therichpost</Link>
+                        <Link class="logo" to={{ pathname: "/"}}>Dulce Detalle de  Susan</Link>
                            
                            <ul class="nav">
-                               <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                               <li class="scroll-to-section"><a href="#men">Men's</a></li>
-                               <li class="scroll-to-section"><a href="#women">Women's</a></li>
-                               <li class="scroll-to-section"><a href="#kids">Kid's</a></li>
-                               <li class="submenu">
+                               <li class="scroll-to-section"><a href="#top" class="active">Inicio</a></li>
+                               <li class="scroll-to-section"><a href="#men">Productos</a></li>
+                               <li class="scroll-to-section"><a href="#women">Reseñas</a></li>
+                               <li class="scroll-to-section"><a href="#kids">Nosotros</a></li>
+                               {/* <li class="submenu">
                                    <a href="javascript:;">Pages</a>
                                    <ul>
                                        <li><Link to={{ pathname: "/about"}}>About Us</Link></li>
@@ -22,8 +22,8 @@ function Header() {
                                        <li><Link to={{ pathname: "/single-product"}}>Single Product</Link></li>
                                        <li><Link to={{ pathname: "/contact-us"}}>Contact Us</Link></li>
                                    </ul>
-                               </li>
-                               <li class="submenu">
+                               </li> */}
+                               {/* <li class="submenu">
                                    <a href="javascript:;">Features</a>
                                    <ul>
                                        <li><a href="#">Features Page 1</a></li>
@@ -32,7 +32,7 @@ function Header() {
                                        <li><a rel="nofollow" href="https://therichpost.com/page/4" target="_blank">Template Page 4</a></li>
                                    </ul>
                                </li>
-                               <li class="scroll-to-section"><a href="#explore">Explore</a></li>
+                               <li class="scroll-to-section"><a href="#explore">Explore</a></li> */}
                            </ul>        
                            <a class='menu-trigger'>
                                <span>Menu</span>

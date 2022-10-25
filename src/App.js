@@ -14,13 +14,16 @@ import {
 } from "react-router-dom";
 
 function App() {
+
+
+  const whatsappDDSLink = "https://web.whatsapp.com/send?phone=51987011411"
   return (
     <div className="App">
       
         <BrowserRouter>
           <Header></Header>
             <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home whatsappDDSLink={whatsappDDSLink}/>} />
             <Route path="/about" element={<About />} />
             <Route path="/products" element={<Products />} />
             <Route path="/contact-us" element={<Contact />} />
