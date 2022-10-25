@@ -14,7 +14,7 @@ function Home() {
                                           <a href="#">Purchase Now!</a>
                                       </div>
                                   </div>
-                                  <img src="assets/images/left-banner-image.jpg" alt="" />
+                                  <img src="assets/images/image1.jpg" alt="" />
                               </div>
                           </div>
                       </div>
@@ -37,7 +37,7 @@ function Home() {
                                                       </div>
                                                   </div>
                                               </div>
-                                              <img src="assets/images/baner-right-image-01.jpg" />
+                                              <img src="assets/images/image2.jpg" />
                                           </div>
                                       </div>
                                   </div>
@@ -57,7 +57,7 @@ function Home() {
                                                       </div>
                                                   </div>
                                               </div>
-                                              <img src="assets/images/baner-right-image-02.jpg" />
+                                              <img src="assets/images/image3.jpg" />
                                           </div>
                                       </div>
                                   </div>
@@ -77,7 +77,7 @@ function Home() {
                                                       </div>
                                                   </div>
                                               </div>
-                                              <img src="assets/images/baner-right-image-03.jpg" />
+                                              <img src="assets/images/image4.jpg" />
                                           </div>
                                       </div>
                                   </div>
@@ -97,7 +97,7 @@ function Home() {
                                                       </div>
                                                   </div>
                                               </div>
-                                              <img src="assets/images/baner-right-image-04.jpg" />
+                                              <img src="assets/images/image5.jpg" />
                                           </div>
                                       </div>
                                   </div>
