@@ -1,4 +1,18 @@
 function Home({whatsappDDSLink}) {
+
+  const getLinkToImage  = (imgUrl) => {
+    const text = `Hola Dulce Detalle de Susan! Me interesó mucho esta torta! Me podrías compartir más detalles de personalización y un costo aproximado? Gracias! ${imgUrl}`;
+    return `${whatsappDDSLink}&text=${text}`;
+  }
+
+  const imageList = [
+    "https://i.imgur.com/1xQore8.jpg",
+    "https://i.imgur.com/guPkNaa.jpg",
+    "https://i.imgur.com/HglEwwP.jpg",
+    "https://i.imgur.com/CAgJuNW.jpg",
+    "https://i.imgur.com/Zvx1vQj.jpg"
+  ]
+
   return (
     <div className="home-main">
           <div class="main-banner" id="top">
@@ -11,10 +25,10 @@ function Home({whatsappDDSLink}) {
                                       <h4>Dulce Detalle de Susan</h4>
                                       <span>Personalizdos!</span>
                                       <div class="main-border-button">
-                                          <a href={whatsappDDSLink}>Comprar ahora</a>
+                                          <a href={getLinkToImage(imageList[4])}>Comprar ahora</a>
                                       </div>
                                   </div>
-                                  <img src="assets/images/image1.jpg" alt="" />
+                                  <img src={imageList[4]} alt="" />
                               </div>
                           </div>
                       </div>
@@ -31,11 +45,11 @@ function Home({whatsappDDSLink}) {
                                               <div class="hover-content">
                                                   <div class="inner">                                                      
                                                     <div class="main-border-button">
-                                                        <a href={whatsappDDSLink}>Consulta aqui</a>
+                                                        <a href={getLinkToImage(imageList[3])}>Consulta aqui</a>
                                                     </div>
                                                   </div>
                                               </div>
-                                              <img src="assets/images/image2.jpg" />
+                                              <img src={imageList[3]} />
                                           </div>
                                       </div>
                                   </div>
@@ -49,11 +63,11 @@ function Home({whatsappDDSLink}) {
                                               <div class="hover-content">
                                                   <div class="inner">                                                      
                                                     <div class="main-border-button">
-                                                        <a href={whatsappDDSLink}>Consulta aqui</a>
+                                                        <a href={getLinkToImage(imageList[1])}>Consulta aqui</a>
                                                     </div>
                                                   </div>
                                               </div>
-                                              <img src="assets/images/image3.jpg" />
+                                              <img src={imageList[1]} />
                                           </div>
                                       </div>
                                   </div>
@@ -67,11 +81,11 @@ function Home({whatsappDDSLink}) {
                                               <div class="hover-content">
                                                   <div class="inner">                                                      
                                                     <div class="main-border-button">
-                                                        <a href={whatsappDDSLink}>Consulta aqui</a>
+                                                        <a href={getLinkToImage(imageList[2])}>Consulta aqui</a>
                                                     </div>
                                                   </div>
                                               </div>
-                                              <img src="assets/images/image4.jpg" />
+                                              <img src={imageList[2]} />
                                           </div>
                                       </div>
                                   </div>
@@ -85,11 +99,11 @@ function Home({whatsappDDSLink}) {
                                               <div class="hover-content">
                                                   <div class="inner">                                                      
                                                     <div class="main-border-button">
-                                                        <a href={whatsappDDSLink}>Consulta aqui</a>
+                                                        <a href={getLinkToImage(imageList[0])}>Consulta aqui</a>
                                                     </div>
                                                   </div>
                                               </div>
-                                              <img src="assets/images/image5.jpg" />
+                                              <img src={imageList[0]} />
                                           </div>
                                       </div>
                                   </div>
