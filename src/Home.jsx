@@ -1,7 +1,7 @@
 function Home({whatsappDDSLink}) {
 
   const getLinkToImage  = (imgUrl) => {
-    const text = `Hola Dulce Detalle de Susan! Me interesó mucho esta torta! Me podrías compartir más detalles de personalización y un costo aproximado? Gracias! ${imgUrl}`;
+    const text = `Hola Dulce Detalle de Susan! Me interesó mucho este producto! Me podrías compartir más detalles y un costo aproximado? Gracias! ${imgUrl}`;
     return `${whatsappDDSLink}&text=${text}`;
   }
 
